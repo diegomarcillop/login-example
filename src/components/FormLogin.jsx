@@ -4,7 +4,9 @@ import { MailOutlined, LockOutlined } from "@ant-design/icons";
 import "./FormLogin.less";
 
 export default function FormLogin() {
+  // eslint-disable-next-line
   const validateMessages = {
+    // eslint-disable-next-line
     required: "${name} is required",
     types: {
       email: "Email invalido",
